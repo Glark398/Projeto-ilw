@@ -1,0 +1,68 @@
+body{
+    background-image: url(/img/backgrounds/background2.png);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.chart{
+    text-align: center;
+    margin:0;
+    padding: 0;
+    display: flex;
+}
+
+.chart table{
+    font-family: "amazing grotesk demi";
+    background-color: rgb(82, 82, 82);
+    width: 100%;
+}
+
+.chart table th{
+    font-size: 1.5vw;
+}
+
+.chart table td{
+    font-size: 1vw;
+    border-radius: 1vh;
+}
+.chart table td img{
+    border-radius: 1vh;
+    width: 4.8vw;
+    height: 3vw;
+    margin: 0;
+}
+
+.x{
+    background-color: rgb(82, 82, 82);
+}
+
+.def{
+    background-color: blue;
+}
+
+.atk{
+    background-color:crimson;
+    padding: 5px;
+}
+
+.x1{
+    background-color: aliceblue;
+    
+}
+
+.x½{
+    background-color: red;
+    color: white;
+}
+
+.x2{
+    background-color: green;
+    color: white;
+}
+
+.x0{
+    background-color: black;
+    color: white;
+}
+
