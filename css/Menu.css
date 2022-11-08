@@ -98,14 +98,13 @@ body{
     margin: 0;
     padding: 0;
     left: 1vw;
-    top: -0.1vh;
-    cursor:default;
+    top: -0.1%;
+    cursor: default;
 }
 
 .Menu ul li{
     font-size: 2.4vw;
     font-family: 'adumu';
-    text-decoration: underline;
     display: inline-block;
     text-decoration: none;
 }
@@ -120,7 +119,8 @@ body{
 .Menu ul li img{
     width: 3.7vw;
     height: 3.5vw;
-    position: relative;
+    margin-top: -0.3vw;
+    
 }
 
 .home{

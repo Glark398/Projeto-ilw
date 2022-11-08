@@ -15,7 +15,6 @@ body{
 .chart table{
     font-family: "amazing grotesk demi";
     background-color: rgb(82, 82, 82);
-    width: 100%;
 }
 
 .chart table th{
@@ -31,6 +30,7 @@ body{
     width: 4.8vw;
     height: 3vw;
     margin: 0;
+
 }
 
 .x{

@@ -23,26 +23,13 @@
 .contatos img{
     width: 7.6vw;
     height: 2.4vw;
+    margin: 1%;
 }
 
 .contatos img:hover{
     opacity: 74%;
 }
 
-.twitter{
-    margin-top: 1.2%;
-    margin-left: 1.3%;
-}
-
-.email{
-    margin-top: 1.2%;
-    margin-left: 5.3%;
-}
-
-.instagram{
-    margin-top: 3.2%;
-    margin-left: 25%;
-}
 
 /* Perfil foto + nome */
 
@@ -51,6 +38,7 @@
     flex-direction: column;
     align-items: center;
     margin-bottom: 10%;
+    margin-left: 1%;
 }
 .perfil img{
     width: 16.3vw;
@@ -66,7 +54,7 @@
 
 .texto1_home{
     width: 45vw;
-    height: 42vh;
+    height: 21vw;
     background: white;
     border: 0.6vmin solid;
     border-radius: 3%;
