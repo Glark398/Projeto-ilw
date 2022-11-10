@@ -81,6 +81,7 @@ html{
     word-spacing: 8vw;
     cursor: default;
     z-index: 1;
+    word-spacing: 5vw;
     
 }
 
@@ -100,12 +101,11 @@ html{
     font-family: 'adumu';
     display: inline-block;
     text-decoration: none;
-    
 }
 
 .Menu ul li span{
     position: relative;
-    left: 11%;
+    left: 4%;
     top: -2vh;
 }
 
@@ -119,13 +119,10 @@ html{
 }
 
 .home{
-    margin-left: 22%;
+    margin-left: 19%;
 
 }
 
-.pokedex_icon{
-    left: 9%;
-}
 .Menu a{
     text-decoration: none;
     color:rgb(0, 0, 0);
@@ -138,34 +135,6 @@ html{
 
 .Menu ul li:hover{
     text-decoration: underline;
-    color: #a6ff00;
-    text-shadow: 0 0 15px #ff3636;
-}
-
-/* SUB MENU */
-.Menu ul li ul{
-    display: none;
-    position: absolute;
-}
-
-.Menu ul li:hover ul{
-    display: block;
-    margin: 0;
-    padding: 0;
-    margin-left: 5%;
-    
-}
-
-.Menu ul li:hover ul li{
-    display: block;
-    padding-top: 2vh;
-    background-color: rgb(176, 255, 140);
-    text-shadow: none;
-    font-size: 1em;
-}
-
-.Menu ul li:hover ul li:hover{
-    background-color: rgb(122, 206, 83);
     color: #a6ff00;
     text-shadow: 0 0 15px #ff3636;
 }
