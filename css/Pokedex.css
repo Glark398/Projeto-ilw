@@ -1,0 +1,21 @@
+body{
+    background-image: url(../img/backgrounds/background3.jpg);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    background-attachment: fixed;
+}
+
+.conteudo{
+    display: flex;
+    gap: 20vw;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5%;
+}
+.gen{
+    background-color: aqua;
+    width: 40vw;
+    height: 6vw;
+    border-radius: 50px;
+}

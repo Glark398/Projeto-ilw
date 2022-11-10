@@ -1,7 +1,8 @@
 body{
-    background-image: url(/img/backgrounds/background2.png);
+    background-image: url(../img/backgrounds/background1.png);
     background-size: cover ;
     background-repeat: no-repeat;
+    overflow-x: hidden;
     background-attachment: fixed;
 }
 
