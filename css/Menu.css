@@ -21,7 +21,14 @@ html{
     border: 2px solid #4e4e4e;
 }
 
-
+@keyframes fundo {
+    0%{
+        background-size: auto 65vw;
+    }
+    100%{
+        background-size: auto 80vw;
+    }
+}
 
 @font-face{
     font-family: 'adumu';
@@ -143,3 +150,28 @@ html{
     text-shadow: 0 0 15px #ff3636;
 }
 
+/* Rodapé */
+
+.envolto{
+    display: flex;
+    justify-content: center;
+}
+
+.rodape{
+    width: 70%;
+    height: 8vw;
+    background-color: rgba(58, 57, 57);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    font-size: 1.5vw;
+}
+.rodape p{
+    margin-top: 0;
+}
+
+/* Fim Rodapé */

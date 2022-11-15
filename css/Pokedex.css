@@ -1,5 +1,5 @@
 body{
-    background-image: url(../img/backgrounds/background3.jpg);
+    background-color: rgb(176, 255, 140);
     background-size: cover ;
     background-repeat: no-repeat;
     overflow-x: hidden;
@@ -8,14 +8,89 @@ body{
 
 .conteudo{
     display: flex;
-    gap: 20vw;
     align-items: center;
     flex-direction: column;
-    margin-top: 5%;
+    margin-bottom: 2vw;
 }
+
+/* Fundo */
+.background{
+    height: 50vw;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    animation: fundo 10s infinite alternate ease-in;
+} 
+#one{background-image: url(../img/backgrounds/Gen_1.jpg);}
+#two{background-image: url(../img/backgrounds/Gen_2.jpg);}
+#three{background-image: url(../img/backgrounds/Gen_3.jpg);}
+#four{background-image: url(../img/backgrounds/Gen_4.jpg);}
+#five{background-image: url(../img/backgrounds/Gen_5.jpg);}
+#six{background-image: url(../img/backgrounds/Gen_6.jpg);}
+#seven{background-image: url(../img/backgrounds/Gen_7.jpg);}
+#eight{background-image: url(../img/backgrounds/Gen_8.jpg);}
+
+/* Fim Fundo*/
+
+/* Efeito de Vidro */
+.vidro{
+    height: 50vw;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(2px);
+}
+.um{background-color: rgba(255, 252, 49, 0.4);}
+.dois{background-color: rgba(94, 255, 0, 0.4);}
+.tres{background-color: rgba(0, 255, 234, 0.4);}
+.quatro{background-color: rgba(255, 0, 0, 0.4);}
+.cinco{background-color: rgba(255, 255, 255, 0.4);}
+.seis{background-color: rgba(195, 0, 255, 0.4);}
+.sete{background-color: rgba(30, 255, 0, 0.4);}
+.oito{background-color: rgba(255, 197, 121, 0.4);}
+
+/* Fim Efeito de Vidro */
+
+/* Botão */
 .gen{
-    background-color: aqua;
-    width: 40vw;
+    width: 23vw;
     height: 6vw;
     border-radius: 50px;
+    border: 0.4vw solid;
 }
+
+#um{background: linear-gradient(90deg, rgba(150,0,0,1) 0%, rgba(255,251,29,1) 100%); 
+    filter: drop-shadow(0 0 2vw rgb(21, 255, 0));}
+#dois{background: linear-gradient(90deg, rgba(217,107,0,1) 0%, rgba(29,255,159,1) 100%);
+    filter: drop-shadow(0 0 2vw rgb(255, 136, 0));}
+#tres{background: linear-gradient(90deg, rgba(70,134,255,1) 0%, rgb(76, 156, 0) 100%);
+    filter: drop-shadow(0 0 2vw rgb(19, 167, 0));}
+#quatro{background: linear-gradient(90deg, rgba(70,24,0,1) 0%, rgb(179, 21, 21) 100%);
+    filter: drop-shadow(0 0 2vw rgb(255, 251, 0));}
+#cinco{background: linear-gradient(90deg, rgba(47,78,134,1) 0%, rgb(202, 202, 202) 100%);
+    filter: drop-shadow(0 0 2vw rgb(4, 0, 255));}
+#seis{background: linear-gradient(90deg, rgba(55,0,124,1) 0%, rgba(249,167,255,1) 100%);
+    filter: drop-shadow(0 0 2vw rgb(255, 0, 149));}
+#sete{background: linear-gradient(90deg, rgb(255, 0, 76) 0%, rgb(0, 194, 58) 100%);
+    filter: drop-shadow(0 0 2vw rgb(123, 0, 148));}
+#oito{background: linear-gradient(90deg, rgba(51,161,173,1) 0%, rgba(255,241,154,1) 100%);
+    filter: drop-shadow(0 0 2vw rgb(251, 255, 0));}
+
+.gen a{
+    font-family: 'adumu';
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7%;
+    font-size: 2.5vw;
+    color: white;
+}
+
+/* Fim Botão */
+
