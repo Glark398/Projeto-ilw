@@ -36,6 +36,11 @@ html{
 }
 
 @font-face{
+    font-family: 'gagalin';
+    src: url(../fonts/Gagalin/Gagalin-Regular.otf) format("opentype");
+}
+
+@font-face{
     font-family: 'people book';
     src: url(../fonts/PEOPLE_BOOK/PEOPLE_BOOK.otf) format("opentype");
 }
@@ -43,6 +48,11 @@ html{
 @font-face{
     font-family: 'basketball';
     src: url(../fonts/Basketball/Basketball.otf) format("opentype");
+}
+
+@font-face{
+    font-family: 'aileron light';
+    src: url(../fonts/Aileron_Light/Aileron-Light.otf) format("opentype");
 }
 
 @font-face {

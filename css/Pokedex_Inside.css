@@ -1,3 +1,8 @@
+body{
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 
 .conteudo{
     min-height: 80vh;
@@ -6,25 +11,44 @@
     justify-content:center;
 }
 
+.block{
+    width: 83vw;
+    background-color: white;
+    border-radius: 80px;
+}
+
 .block img{
     width: 13vw;
 }
 
+.block img:hover{
+    filter: drop-shadow(0 0 1vw rgba(0, 0, 0, 0.500));
+    transform: scale(1.1);
+}
+
 .block ul li{
     display: inline-block;
-    margin-left: 8vw;
+    margin-left: 4.5vw;
     margin-top: 3vw;
 
 }
 
 @media screen and (max-width: 1190px){
     .block img{
-        width: 19vw;
+        width: 16vw;
     }
     
     .block ul li{
-        margin-left: 9vw;
-        
+        margin-left: 6vw;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .block img{
+        width: 22vw;
+    }
     
+    .block ul li{
+        margin-left: 8vw;
     }
 }
