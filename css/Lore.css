@@ -32,23 +32,18 @@ body{
     justify-content: space-between;
     align-items: center;
     font-family: 'aileron light';
+    margin-left: 4%;
+    margin-right: 4%;
 }
 
-.horizontal video{
+.um video{
     width: 35%;
     margin-right: -4%;
 }
 
 p{
-    margin-left: 2vw;
-    font-size: 1.5vw;
+    margin-left: 2%;
+    font-size: 1.2vw;
 }
 
-.parallax{
-    width: 100%;
-    height: 30vw;
-    background-image: url(../img/backgrounds/background_lore2.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
+.dois

@@ -160,28 +160,4 @@ html{
     text-shadow: 0 0 15px #ff3636;
 }
 
-/* Rodapé */
 
-.envolto{
-    display: flex;
-    justify-content: center;
-}
-
-.rodape{
-    width: 70%;
-    height: 8vw;
-    background-color: rgba(58, 57, 57);
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border-top-right-radius: 40px;
-    border-top-left-radius: 40px;
-    font-size: 1.5vw;
-}
-.rodape p{
-    margin-top: 0;
-}
-
-/* Fim Rodapé */

@@ -15,8 +15,9 @@ body{
     border: 0.6vmin dashed;
     border-radius: 10%;
     float: right;
-    margin-right: 3%;
+    margin-right: 3.5%;
     margin-bottom: 20%;
+    margin-top: -4.2vw;
 }
 
 .contatos h1{
@@ -56,15 +57,16 @@ body{
     font-family: 'amazing grotesk ultra';
     color: white;
     margin-top: 0;
-    font-size: 4vw;
+    font-size: 3vw;
 }
 
+/* Texto principal*/
 .texto1_home{
     width: 45vw;
     height: 21vw;
     background: white;
     border: 0.6vmin solid;
-    border-radius: 3%;
+    border-radius: 30px;
     border-top-right-radius: 25%;
     text-align: left;
 }
@@ -98,11 +100,68 @@ body{
 
 .block_home{
     display: flex;
-    flex-direction: row;
-    justify-content:space-between;
     align-items: center;
     width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 1.5vw;
 }
+
+/* Endereço */
+
+.endereco{
+    margin-top: -22vw;
+    width: 22vw;
+    height: 18vw;
+    background-color: rgb(58, 57, 57);
+    border: 0.4vw solid white;
+    margin-right: 1vw;
+    border-radius: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+iframe{
+    width: 12vw;
+    height: 12vw;
+    margin-top: 2vw;
+}
+
+.endereco p{
+    text-align: center;
+    color: white;
+    margin-top: 2vw;
+    font-size: 1vw;
+}
+
+/* Rodapé */
+
+.envolto{
+    display: flex;
+    justify-content: center;
+}
+
+.rodape{
+    width: 70%;
+    height: 8vw;
+    background-color: rgba(58, 57, 57);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    font-size: 1.5vw;
+}
+.rodape p{
+    margin-top: 0;
+    font-size: 1.4vw;
+}
+
+/* Fim Rodapé */
 
 
 @media screen and (max-width: 1000px){
@@ -153,5 +212,19 @@ body{
         margin-left: 5%;
     }
 
+    .endereco{
+        margin-top: -10vw;
+        width: 60vw;
+        height: 50vw;
+        margin-bottom: 5vw;
+    }
 
+    iframe{
+        width: 33vw;
+        height: 33vw;
+    }
+
+    .endereco p{
+        font-size: 2.3vw;
+    }
 }
