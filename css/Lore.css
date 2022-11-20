@@ -7,11 +7,22 @@ body{
     overflow-x: hidden;
 }
 
+/* Inicio Geral */
+
+@keyframes fundo {
+    0%{
+        background-size: auto 50vw;
+    }
+    100%{
+        background-size: auto 55vw;
+    }
+}
+
 .conteudo{
     background-color: rgb(255, 255, 255);
-    margin-top: 47%;
+    margin-top: 43%;
     width: 100%;
-    height: 100vw;
+    height: 305vw;
 }
 
 .block{
@@ -31,19 +42,139 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: 'aileron light';
-    margin-left: 4%;
+    flex-direction: row;
+    font-family: 'League Spartan', sans-serif;
+    margin-left: 6%;
     margin-right: 4%;
+    margin-bottom: 2%;
 }
 
-.um video{
-    width: 35%;
-    margin-right: -4%;
+.horizontal img{
+    border: 3px solid;
 }
 
 p{
-    margin-left: 2%;
-    font-size: 1.2vw;
+    font-size: 1.55vw;
 }
 
-.dois
+/* Fim Geral*/ 
+
+/* Um */
+.um{
+    margin-top: -3%;
+}
+
+.um img{
+    width: 30vw;
+    margin-right: -4%;
+    border: none;
+}
+/* Fim Um*/
+
+/* Dois */
+.dois{
+    margin-top: 1.5%;
+}
+.dois img{
+    width: 18vw;
+    margin-left: 1%;
+    margin-top: -7%;
+}
+
+.dois p{
+    margin-right: 6%;
+    margin-left: 5%;
+    margin-bottom: 8%;
+}
+/* Fim Dois */
+
+/* Tres */
+.tres{
+    margin-top: -3%;
+}
+/* Fim Tres*/
+
+/* Quatro */
+/* Fim quatro*/
+
+/* Background 1*/
+.background{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: center;
+    width: 100vw;
+    height: 27vw;
+    animation: fundo 47s infinite alternate ease;
+}
+
+.one{
+    background-image: url(../img/backgrounds/Regis.jpg);
+}
+
+/* Fim Background 1*/
+
+/* Cinco */
+
+.cinco{
+    margin-right: 15%;
+}
+.cinco p{
+    margin-left: 5%;
+}
+
+/* Fim Cinco */
+
+/* Seis*/
+
+.seis{
+    justify-content: center;
+}
+
+.seis img{
+    width: 40vw;
+}
+/* Fim seis*/
+
+/* Sete */
+
+.sete img{
+    height: 24vw;
+    margin-left: 4vw;
+    margin-top: 5vw;
+}
+/* Fim Sete*/ 
+
+/* Oito */
+/* Fim Oito*/
+
+/* Nove */
+/* Fim Nove*/
+
+/* Background 2*/
+.two{
+    background-image: url(../img/backgrounds/dialga_palkia_giratina.jpg);
+}
+/* Fim Background 2*/
+
+/* Dez */
+/* Fim Dez*/
+
+/* Onze */
+.image{
+    height: 20vw;
+    margin-left: 2%;
+}
+
+.onze img{
+    width: 15vw;
+    border: none;
+}
+.onze p{
+    margin-left: 6%;
+}
+/* Fim Onze*/
+
+.envolto{
+    margin-top: 5vw;
+}
