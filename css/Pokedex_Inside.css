@@ -22,7 +22,6 @@ body{
 }
 
 .block img:hover{
-    filter: drop-shadow(0 0 1vw rgba(0, 0, 0, 0.500));
     transform: scale(1.1);
 }
 
