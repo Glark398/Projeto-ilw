@@ -32,6 +32,32 @@ body{
 
 }
 
+.aviso{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dentro div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dentro h1{
+    font-family: 'adumu';
+    font-size: 3.5vw;
+}
+
+.dentro p{
+    font-size: 1.5vw;
+}
+
+.dentro img{
+    width: 20vw;
+}
+
+
 @media screen and (max-width: 1190px){
     .block img{
         width: 16vw;
@@ -41,7 +67,19 @@ body{
         margin-left: 6vw;
     }
 }
-
+@media screen and (max-width: 950px){
+    .dentro h1{
+        font-size: 5.5vw;
+    }
+    
+    .dentro p{
+        font-size: 3vw;
+    }
+    
+    .dentro img{
+        width: 33vw;
+    }
+}
 @media screen and (max-width: 650px){
     .block img{
         width: 22vw;
